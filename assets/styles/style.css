@@ -7,10 +7,6 @@ header, main, footer {
   margin: 0 auto;
 }
 
-.main-header {
-  background-color: #666;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 196px auto 350px;
@@ -20,6 +16,11 @@ header, main, footer {
 
 .flex {
   display: flex;
+}
+
+/* Navbar */
+.main-header {
+  background-color: #666;
 }
 
 .navbar {
@@ -40,4 +41,50 @@ header, main, footer {
 .nav-input {
   width: 350px;
   height: 57px;
+}
+
+/* Main Articles Section*/
+
+
+/* Menbership Banner */
+.membership-banner {
+  width:307px;
+}
+
+/* Latest Articles Section */
+.shopify-ad img {
+  width: 175px;
+}
+
+.smashing-ads img {
+  width: 245px;
+}
+
+.click-book-ad img {
+  width: 920px;
+}
+
+/* Community Links Section */
+.person-of-the-week img {
+  width: 256px;
+}
+
+.community-links img {
+  width: 80px;
+}
+
+/* Design Book Ad */
+.design-book-ad img {
+  width: 310px;
+}
+
+/* Newsletter Ad */
+.newsletter-ad img {
+  width: 620px;
+}
+
+/* Footer */
+
+footer img {
+  width: 245px;
 }
