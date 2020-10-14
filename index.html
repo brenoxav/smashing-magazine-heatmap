@@ -11,12 +11,12 @@
 
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li class="nav-item">
-                    <img src="assets/images/smashing-logo-full.svg">
-                </li>
+    <header class="main-header grid">
+        
+        <img class="nav-logo" src="assets/images/smashing-logo-full.svg">
+        <nav class="navbar flex">
+            
+            <ul class="flex">
                 <li class="nav-item">Articles</li>
                 <li class="nav-item">Guide</li>
                 <li class="nav-item">Books</li>
@@ -24,11 +24,11 @@
                 <li class="nav-item">Membership</li>
                 <li class="nav-item">Jobs</li>
                 <li class="nav-item">More</li>
-                <li class="nav-item">
-                    <input type="search" name="search" placeholder="Search articles...">
-                </li>
+                <li class="nav-item"></li>
             </ul>
         </nav>
+        <input class="nav-input" type="search" name="search" placeholder="Search articles...">
+
     </header>
 
     <main>
@@ -348,13 +348,19 @@
             <li class="footer-item"><a href="/category/wordpress">WordPress</a></li>
             <li class="footer-item"><a href="/category/workflow">Workflow</a></li>
         </ul>
+
+        <img src="assets/images/bird-in-cage.svg" alt="bird inside a cage">
+
+        <div class="footer-last-links">
         <p>With a commitment to quality content for the design community.</p>
         <p>Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.</p>
-        <p>Smashing is proudly running on Netlify.</p>
-        <p>Fonts by Latinotype.</p>
-
+        <p>Smashing is proudly running on <a href="#">Netlify</a>.</p>
+        <p>Fonts by <a href="#">Latinotype</a>.</p>
         <p>✎ <a href="#">Write for us</a> <a href="#">Contact us</a> <a href="#">About us (Impressum)</a> <a href="#">Privacy policy</a></p>
         <p><a href="#">Membership login</a> <a href="#">Delivery times</a> <a href="#">Advertise</a></p>
+        </div>
+
+        <img src="assets/images/cat-footer.svg" alt="cat jumping">
     </footer>
 
 </body>
