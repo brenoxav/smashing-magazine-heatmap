@@ -3,9 +3,14 @@
   font-family: Arial, Helvetica, sans-serif   ;
 }
 
-header, main, footer {
-  max-width: 1440px;
+body {
+  width: 1440px;
   margin: 0 auto;
+}
+
+header, main, footer {
+  width: 100%;
+  /* margin: 0 auto; */
 }
 
 .grid {
@@ -181,10 +186,39 @@ header, main, footer {
 
 
 /* Menbership Banner */
+
 .membership-banner {
-  width:307px;
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+  font-size: 18px;
+  line-height: 36px;
 }
 
+.membership-banner div {
+  width: 748px;
+  height: 375px;
+  margin-left: 200px;
+}
+
+.membership-banner img{
+  width:250px;
+  margin-top: -300px;
+  transform: rotate(-15deg);
+}
+
+.membership-banner ul {
+  list-style: initial;
+  padding-left: 50px;
+}
+
+.membership-banner button {
+  margin-top: 20px;
+  padding: 18px 24px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+}
 /* Latest Articles Section */
 .shopify-ad img {
   width: 175px;
