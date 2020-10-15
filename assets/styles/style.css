@@ -3,6 +3,10 @@
   font-family: Arial, Helvetica, sans-serif   ;
 }
 
+img {
+  filter: grayscale(1);
+}
+
 body {
   width: 1440px;
   margin: 0 auto;
@@ -194,7 +198,7 @@ header, main, footer {
 /* Menbership Banner */
 
 .membership-banner {
-  background-color: #333;
+  background-image:linear-gradient(#333, #555);
   color: #fff;
   padding:50px 0 50px 0px;
   font-size: 18px;
@@ -313,14 +317,23 @@ header, main, footer {
 
 .smashing-ads {
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: #444;
+  border-radius: 10px;
 }
 
 .smashing-ads h1 {
+  text-align: center;
+  text-decoration: underline;
   font-size: 36px;
   color: #fff;
+}
 
+.smashing-ad-account {
+  text-align: center;
+  color: #fff;
+  line-height: 35px;
 }
 
 .smashing-ads img {
