@@ -1,5 +1,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif   ;
 }
 
 header, main, footer {
@@ -129,7 +130,7 @@ header, main, footer {
 
 .main-articles	{
   flex-direction: column;
-  justify-content: flex-end;
+  padding: 200px 50px 30px 50px;
 }
 
 .main-articles img {
@@ -140,8 +141,44 @@ header, main, footer {
 }
 
 .main-articles h2 {
-  font-size: 2em;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 59px;
+  color: #fff;
 }
+
+.comments {
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.tags {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 20px 30px 0 0;
+  color: #fff;
+}
+
+.tags sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.main-article-author {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #fff;
+  padding: 20px 0 30px 20px;
+}
+
+.main-article-author span {
+  font-style: italic;
+  font-weight: 400;
+}
+
+
 
 /* Menbership Banner */
 .membership-banner {
