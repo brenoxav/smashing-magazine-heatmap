@@ -24,6 +24,14 @@ header, main, footer {
   display: flex;
 }
 
+.btn {
+  padding: 18px 24px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+
 /* Navbar */
 .main-header {
   background-color: #666;
@@ -216,10 +224,6 @@ header, main, footer {
 
 .membership-banner button {
   margin-top: 20px;
-  padding: 18px 24px;
-  font-size: 24px;
-  font-weight: bold;
-  border-radius: 10px;
 }
 /* Latest Articles Section */
 
@@ -277,12 +281,55 @@ header, main, footer {
   font-size: 25px;
 }
 
-.shopify-ad img {
+.shopify-ad p {
+  text-align: center;
+
+}
+
+.shopify-ad-wrapper {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  height: 210px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  padding: 18px;
+  text-decoration: none;
+
+}
+
+.shopify-ad-wrapper img {
   width: 175px;
+}
+
+.shopify-ad-wrapper button {
+  border: none;
+  border-radius: 5px;
+  background-color: #666;
+  color: #fff;
+  padding: 10px 14px;
+}
+
+.smashing-ads {
+  flex-direction: column;
+  justify-content: center;
+  background-color: #444;
+}
+
+.smashing-ads h1 {
+  font-size: 36px;
+  color: #fff;
+
 }
 
 .smashing-ads img {
   width: 245px;
+}
+
+.smashing-ads button {
+  font-size: 18px;
+  width: auto;
 }
 
 .click-book-ad img {
