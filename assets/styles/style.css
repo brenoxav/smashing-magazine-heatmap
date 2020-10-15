@@ -21,6 +21,7 @@ header, main, footer {
 /* Navbar */
 .main-header {
   background-color: #666;
+  padding: 16px 40px;
 }
 
 .navbar {
@@ -31,7 +32,28 @@ header, main, footer {
 
 .navbar ul {
   width: 100%;
+  height: 100%;
   justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-font {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #fff;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-btn {
+  background-color: #444;
+  border-radius: 11px;
+  width: 115px;
+  height: 60px;
 }
 
 .nav-logo {
@@ -40,10 +62,53 @@ header, main, footer {
 
 .nav-input {
   width: 350px;
-  height: 57px;
+  height: 70px;
+  border-radius: 11px;
+}
+
+.nav-input[placeholder] {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #fff;
 }
 
 /* Main Articles Section*/
+
+.main-heading {
+  font-size: 39px;
+  line-height: 59px;
+  font-weight: 700;
+  color: #333;
+  background-color: #fff;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.main-articles-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 778px 778px;
+}
+
+.main-articles-section:nth-child(1) {
+  background-color: #555;
+}
+
+.main-articles-section:nth-child(2) {
+  background-color: #888;
+}
+
+.main-articles-section:nth-child(3)
+
+.main-articles-section:nth-child(4)
+
+.main-articles img {
+  width: 96px;
+  height: 96px;
+  border: 5px solid #fff;
+  border-radius: 11px;
+}
 
 
 /* Menbership Banner */
