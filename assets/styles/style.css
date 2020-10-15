@@ -183,22 +183,20 @@ header, main, footer {
   font-weight: 400;
 }
 
-
-
 /* Menbership Banner */
 
 .membership-banner {
   background-color: #333;
   color: #fff;
-  padding: 50px;
+  padding:50px 0 50px 0px;
   font-size: 18px;
   line-height: 36px;
 }
 
 .membership-banner div {
-  width: 748px;
+  width: 750px;
   height: 375px;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 .membership-banner img{
@@ -209,7 +207,11 @@ header, main, footer {
 
 .membership-banner ul {
   list-style: initial;
-  padding-left: 50px;
+  padding: 20px 0px 20px 50px;
+}
+
+.membership-banner a {
+  color: #fff;
 }
 
 .membership-banner button {
@@ -220,6 +222,61 @@ header, main, footer {
   border-radius: 10px;
 }
 /* Latest Articles Section */
+
+.latest-articles-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 574px 794px 542px;
+  gap: 50px;
+}
+
+.latest-articles {
+  padding: 30px 40px 0px;
+  position: relative;
+}
+
+.article-date {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.latest-articles h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 34px;
+  margin: 25px 0;
+}
+
+.latest-articles p {
+  color: #666;
+}
+
+.latest-articles a {
+  color: black;
+}
+
+.article-author {
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 700;
+}
+
+.article-description {
+  font-size: 20px;
+  line-height: 34px;
+  padding: 20px 0;
+  font-weight: lighter;
+  color: #444;
+}
+
+.article-arrow {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
 .shopify-ad img {
   width: 175px;
 }
