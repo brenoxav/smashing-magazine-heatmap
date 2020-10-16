@@ -445,9 +445,8 @@ footer {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.person-of-the-week-img {
-  width: auto;
-  height: 256px;
+.person-of-the-week div {
+  margin-left: 50px;
 }
 
 .article-author {
@@ -484,15 +483,16 @@ footer {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.person-of-the-week img {
-  width: 256px;
-}
-
 .community-links img {
   width: 80px;
   border: 6px solid #444;
   border-radius: 10px;
   transform: rotate(-15deg);
+}
+
+.person-of-the-week img {
+  width: 200px;
+  height: 200px;
 }
 
 /* Design Book Ad */
@@ -518,9 +518,61 @@ footer {
   margin-top: -120px;
 }
 
+/* OUR GUIDES SECTION */
+
+.our-guides-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 420px 854px;
+  padding: 70px;
+  grid-gap: 50px;
+}
+
+.our-guides {
+  box-shadow: 0 0 10px 0 #ddd;
+  border-radius: 11px;
+  padding: 50px;
+}
+
+.our-guides p {
+  font-size: 21px;
+  line-height: 35px;
+  color: #666;
+}
+
+.our-guides h2 {
+  font-size: 39px;
+  line-height: 54px;
+  font-weight: bold;
+}
+
 /* Newsletter Ad */
+
 .newsletter-ad img {
-  width: 620px;
+  width: 625px;
+  margin: -50px -50px 0 -50px;
+  margin-bottom: 30px;
+}
+
+.newsletter-ad input {
+  width: 75%;
+  height: 64px;
+  margin-right: -4px;
+  border: 0;
+  background-color: #aaa;
+  border-radius: 11px 0 0 11px;
+}
+
+.newsletter-ad button {
+  border-radius: 0 11px 11px 0;
+}
+
+.newsletter-ad input[placeholder] {
+  font-size: 22px;
+  line-height: 36px;
+  color: #666;
+  font-style: italic;
+  padding-left: 30px;
 }
 
 /* Footer */
