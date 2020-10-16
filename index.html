@@ -323,7 +323,7 @@
                 <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer
                     working with one of these frameworks, or just starting to learn, our authors have created some
                     tutorials for you.</p>
-                <button>Explore JavaScript & Frameworks</button>
+                <button class="btn">Explore JavaScript & Frameworks</button>
             </article>
             <article class="our-guides">
                 <p>A SMASHING GUIDE TO</p>
@@ -331,7 +331,7 @@
                 <p>CSS Layout has been transformed over the past years. We have you covered with all you need to master
                     this new world. If you want to understand the technical details, or learn how to use new CSS
                     creatively, these guides can help.</p>
-                <button>Explore CSS Layout</button>
+                <button class="btn">Explore CSS Layout</button>
             </article>
             <article class="our-guides">
                 <p>A SMASHING GUIDE TO</p>
@@ -339,16 +339,16 @@
                 <p>Ensuring your site loads quickly is important. The subject touches almost every part of web design
                     and development, from your choice of images to the performance of your web server. In this guide we
                     bring together information that can help you build a fast site, and keep it fast.</p>
-                <button>Explore Performance</button>
+                <button class="btn">Explore Performance</button>
             </article>
             <article class="our-guides newsletter-ad">
                 <img src="assets/images/cat-newsletter.png" alt="">
                 <h2>Email Newsletter</h2>
                 <p>Every Tuesday, we send an email newsletter with useful techniques on front-end & UX. Subscribe and
                     get a <strong>freebie: Smart Interface Design Checklists PDF</strong> — right in your inbox. 🔮</p>
-                <div class="guides-input">
-                <input type="email" name="email" id="email" placeholder="Your email">
-                <button class="btn">Meow!</button>
+                <div class="flex">
+                    <input type="email" name="email" id="email" placeholder="Your email">
+                    <button class="btn">Meow!</button>
                 </div>
                 <p>Front-end, UX and design. 1× a week.
                     You can always unsubscribe with just 1 click.</p>
@@ -358,9 +358,9 @@
         <div class="more-links-buttons"><a href="#">See all guides →</a></div>
 
     </main>
-    <footer>
-        <p>BROWSE ALL SMASHING MAGAZINE TOPICSBROWSE ALL SMASHING MAGAZINE TOPICS</p>
-        <ul class="footer-items-wrapper">
+    <footer class="flex">
+        <h4>BROWSE ALL SMASHING MAGAZINE TOPICS</h4>
+        <ul class="footer-nav flex">
             <li class="footer-item"><a href="/category/accessibility">Accessibility</a></li>
             <li class="footer-item"><a href="/category/android">Android</a></li>
             <li class="footer-item"><a href="/category/animation">Animation</a></li>
@@ -371,6 +371,8 @@
             <li class="footer-item"><a href="/category/design-systems">Design Systems</a></li>
             <li class="footer-item"><a href="/category/e-commerce">E-Commerce</a></li>
             <li class="footer-item"><a href="/category/freebies">Freebies</a></li>
+        </ul>
+        <ul class="footer-nav flex">
             <li class="footer-item"><a href="/category/graphics">Graphics</a></li>
             <li class="footer-item"><a href="/category/html">HTML</a></li>
             <li class="footer-item"><a href="/category/illustrator">Illustrator</a></li>
@@ -381,6 +383,8 @@
             <li class="footer-item"><a href="/category/pattern-libraries">Pattern Libraries</a></li>
             <li class="footer-item"><a href="/category/performance">Performance</a></li>
             <li class="footer-item"><a href="/category/photoshop">Photoshop</a></li>
+        </ul>
+        <ul class="footer-nav flex">
             <li class="footer-item"><a href="/category/plugins">Plugins</a></li>
             <li class="footer-item"><a href="/category/react">React</a></li>
             <li class="footer-item"><a href="/category/responsive-web-design">Responsive Web Design</a></li>
@@ -390,25 +394,27 @@
             <li class="footer-item"><a href="/category/ui">UI</a></li>
             <li class="footer-item"><a href="/category/usability">Usability</a></li>
             <li class="footer-item"><a href="/category/user-experience">User Experience</a></li>
+        </ul>
+        <ul class="footer-nav flex">
             <li class="footer-item"><a href="/category/wallpapers">Wallpapers</a></li>
             <li class="footer-item"><a href="/category/web-design">Web Design</a></li>
             <li class="footer-item"><a href="/category/wordpress">WordPress</a></li>
             <li class="footer-item"><a href="/category/workflow">Workflow</a></li>
         </ul>
 
-        <img src="assets/images/bird-in-cage.svg" alt="bird inside a cage">
-
-        <div class="footer-last-links">
-            <p>With a commitment to quality content for the design community.</p>
-            <p>Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.</p>
-            <p>Smashing is proudly running on <a href="#">Netlify</a>.</p>
-            <p>Fonts by <a href="#">Latinotype</a>.</p>
-            <p>✎ <a href="#">Write for us</a> <a href="#">Contact us</a> <a href="#">About us (Impressum)</a> <a
-                    href="#">Privacy policy</a></p>
-            <p><a href="#">Membership login</a> <a href="#">Delivery times</a> <a href="#">Advertise</a></p>
+        <div class="footer-img-wrapper flex">
+            <img src="assets/images/bird-in-cage.svg" alt="bird inside a cage">
+            <div class="footer-text-wrapper">
+                <p>With a commitment to quality content for the design community.</p>
+                <p>Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.</p>
+                <p>Smashing is proudly running on <a href="#">Netlify</a>.</p>
+                <p>Fonts by <a href="#">Latinotype</a>.</p>
+                <p>✎ <a href="#">Write for us</a> <a href="#">Contact us</a> <a href="#">About us (Impressum)</a> <a
+                        href="#">Privacy policy</a></p>
+                <p><a href="#">Membership login</a> <a href="#">Delivery times</a> <a href="#">Advertise</a></p>
+            </div>
+            <img src="assets/images/cat-footer.svg" alt="cat jumping">
         </div>
-
-        <img src="assets/images/cat-footer.svg" alt="cat jumping">
     </footer>
 
 </body>
