@@ -3,6 +3,10 @@
   font-family: Arial, Helvetica, sans-serif   ;
 }
 
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 img {
   filter: grayscale(1);
 }
@@ -36,6 +40,14 @@ header, main, footer {
   border-radius: 10px;
 }
 
+.white-p {
+  color: #fff;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
 /* Navbar */
 .main-header {
   background-color: #666;
@@ -46,6 +58,7 @@ header, main, footer {
   width: 100%;
   height: 104px;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar ul {
@@ -236,6 +249,7 @@ header, main, footer {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 574px 794px 542px;
   gap: 50px;
+  padding: 70px;
 }
 
 .latest-articles {
@@ -255,9 +269,9 @@ header, main, footer {
   margin: 25px 0;
 }
 
-.latest-articles p {
+/* .latest-articles p {
   color: #666;
-}
+} */
 
 .latest-articles a {
   color: black;
@@ -274,7 +288,7 @@ header, main, footer {
   line-height: 34px;
   padding: 20px 0;
   font-weight: lighter;
-  color: #444;
+  color: #888;
 }
 
 .article-arrow {
@@ -287,7 +301,6 @@ header, main, footer {
 
 .shopify-ad p {
   text-align: center;
-
 }
 
 .shopify-ad-wrapper {
@@ -300,7 +313,6 @@ header, main, footer {
   border-radius: 10px;
   padding: 18px;
   text-decoration: none;
-
 }
 
 .shopify-ad-wrapper img {
@@ -326,7 +338,12 @@ header, main, footer {
 .smashing-ads h1 {
   text-align: center;
   text-decoration: underline;
+  font-weight: bold;
   font-size: 36px;
+  color: #fff;
+}
+
+.smashing-ads a {
   color: #fff;
 }
 
@@ -334,6 +351,27 @@ header, main, footer {
   text-align: center;
   color: #fff;
   line-height: 35px;
+}
+
+.smashing-tv-ad {
+  grid-column: 1 / 4;
+  height: 658px;
+  padding-bottom: 25px;
+}
+
+.smashing-tv-ad p {
+  width: 600px;
+}
+
+.more-links-buttons {
+  grid-column: 1 / 4;
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 4px solid #666;
+  padding-bottom: 8px;
 }
 
 .smashing-ads img {
