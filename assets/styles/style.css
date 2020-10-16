@@ -366,9 +366,11 @@ footer {
 }
 
 .more-links-buttons {
-  grid-column: 1 / 4;
-  display: block;
-  margin: 0 auto;
+  text-align: center;
+  margin: 30px 0 70px;
+}
+
+.more-links-buttons a {
   text-transform: uppercase;
   color: #333;
   text-decoration: none;
@@ -443,6 +445,11 @@ footer {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.person-of-the-week-img {
+  width: auto;
+  height: 256px;
+}
+
 .article-author {
   font-size: 20px;
   line-height: 24px;
@@ -483,12 +490,32 @@ footer {
 
 .community-links img {
   width: 80px;
+  border: 6px solid #444;
+  border-radius: 10px;
+  transform: rotate(-15deg);
 }
 
 /* Design Book Ad */
+.design-book-ad {
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 410px;
+  padding: 50px 70px;
+}
+
+.design-book-ad h2 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.design-book-ad div {
+  margin: 0;
+}
 
 .design-book-ad img {
-  width: 310px;
+  width: 256px;
+  margin-top: -120px;
 }
 
 /* Newsletter Ad */
