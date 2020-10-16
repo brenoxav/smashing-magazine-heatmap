@@ -1,10 +1,12 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif   ;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 img {
@@ -16,7 +18,9 @@ body {
   margin: 0 auto;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   width: 100%;
   /* margin: 0 auto; */
 }
@@ -112,7 +116,6 @@ header, main, footer {
   margin: 40px auto;
   background-color: transparent;
   text-align: center;
-
 }
 
 .main-heading {
@@ -131,7 +134,6 @@ header, main, footer {
   position: absolute;
   top: 0;
   right: 20px;
-
 }
 
 /* Main Articles Section*/
@@ -158,7 +160,7 @@ header, main, footer {
   background-color: #999;
 }
 
-.main-articles	{
+.main-articles {
   flex-direction: column;
   padding: 200px 50px 30px 50px;
 }
@@ -211,9 +213,9 @@ header, main, footer {
 /* Menbership Banner */
 
 .membership-banner {
-  background-image:linear-gradient(#333, #555);
+  background-image: linear-gradient(#333, #555);
   color: #fff;
-  padding:50px 0 50px 0px;
+  padding: 50px 0 50px 0px;
   font-size: 18px;
   line-height: 36px;
 }
@@ -224,8 +226,8 @@ header, main, footer {
   margin-left: 150px;
 }
 
-.membership-banner img{
-  width:250px;
+.membership-banner img {
+  width: 250px;
   margin-top: -300px;
   transform: rotate(-15deg);
 }
@@ -386,7 +388,7 @@ header, main, footer {
 .click-book-ad {
   height: 1064px;
   border-radius: 0;
-  background-image:linear-gradient(#333, #555);
+  background-image: linear-gradient(#333, #555);
 }
 
 .click-book-ad h1 {
@@ -413,13 +415,66 @@ header, main, footer {
 /* Community Links Section */
 .community-links-section {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: repeat(6 200px);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 276px 386px 386px 386px;
   align-items: center;
+  padding: 70px;
+}
+
+.community-links-section p {
+  font-size: 21px;
+  line-height: 35px;
+  color: #666;
+}
+
+.community-links-section a {
+  color: #333;
 }
 
 .person-of-the-week {
   grid-column: 1 / 3;
+  font-size: 19px;
+  line-height: 42px;
+  color: #666;
+}
+
+.person-of-the-week h4 {
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.article-author {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #666;
+}
+
+.community-links {
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.community-text {
+  margin-left: 20px;
+}
+
+.community-text span {
+  text-transform: uppercase;
+  font-size: 19px;
+  line-height: 35px;
+}
+
+.community-text h3 {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 41px;
+  margin: 15px 0;
+}
+
+.community-text small {
+  font-size: 26px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .person-of-the-week img {
@@ -431,6 +486,7 @@ header, main, footer {
 }
 
 /* Design Book Ad */
+
 .design-book-ad img {
   width: 310px;
 }
