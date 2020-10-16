@@ -383,6 +383,29 @@ header, main, footer {
   width: auto;
 }
 
+.click-book-ad {
+  height: 1064px;
+  border-radius: 0;
+  background-image:linear-gradient(#333, #555);
+}
+
+.click-book-ad h1 {
+  width: 796px;
+  font-size: 48px;
+  line-height: 60px;
+  text-shadow: 3px 3px #222;
+}
+
+.click-book-ad p {
+  width: 796px;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.click-book-ad button {
+  font-size: 24px;
+}
+
 .click-book-ad img {
   width: 920px;
 }
