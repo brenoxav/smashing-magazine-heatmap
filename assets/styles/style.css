@@ -411,6 +411,17 @@ header, main, footer {
 }
 
 /* Community Links Section */
+.community-links-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(6 200px);
+  align-items: center;
+}
+
+.person-of-the-week {
+  grid-column: 1 / 3;
+}
+
 .person-of-the-week img {
   width: 256px;
 }
