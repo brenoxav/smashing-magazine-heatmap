@@ -23,7 +23,6 @@ main,
 footer,
 section {
   width: 100%;
-  /* margin: 0 auto; */
 }
 
 .grid {
@@ -43,6 +42,7 @@ section {
   font-weight: bold;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .white-p {
@@ -129,7 +129,6 @@ section {
 }
 
 /* Main Heading */
-
 .main-heading-wrapper {
   position: absolute;
   width: 1440px;
@@ -180,12 +179,7 @@ section {
   font-size: 19px;
 }
 
-.color-switch-btn {
-
-}
-
 /* Main Articles Section*/
-
 .main-articles-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -259,7 +253,6 @@ section {
 }
 
 /* Menbership Banner */
-
 .membership-banner {
   background-image: linear-gradient(#333, #555);
   color: #fff;
@@ -292,8 +285,8 @@ section {
 .membership-banner button {
   margin-top: 20px;
 }
-/* Latest Articles Section */
 
+/* Latest Articles Section */
 .latest-articles-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -318,10 +311,6 @@ section {
   line-height: 34px;
   margin: 25px 0;
 }
-
-/* .latest-articles p {
-  color: #666;
-} */
 
 .latest-articles a {
   color: black;
@@ -490,7 +479,7 @@ section {
 
 .person-of-the-week h4 {
   text-transform: uppercase;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .person-of-the-week div {
@@ -528,7 +517,7 @@ section {
 
 .community-text small {
   font-size: 26px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .community-links img {
@@ -566,8 +555,7 @@ section {
   margin-top: -120px;
 }
 
-/* OUR GUIDES SECTION */
-
+/* Our Guides Section */
 .our-guides-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -600,7 +588,6 @@ section {
 }
 
 /* Newsletter Ad */
-
 .newsletter-ad {
   background-image: linear-gradient(#555, #888);
 }
@@ -658,6 +645,10 @@ section {
   width: 80%;
 }
 
+.emoji {
+  filter: grayscale(1);
+}
+
 /* Footer */
 footer {
   flex-direction: column;
@@ -672,7 +663,8 @@ footer * {
 }
 
 footer h4 {
-  margin: 30px 0;
+  margin: 40px 0;
+  font-weight: bold;
 }
 
 footer img {
@@ -681,7 +673,7 @@ footer img {
 
 .footer-nav {
   font-size: 24px;
-  font-weight: bold;
+  text-align: center;
 }
 
 .footer-item {
@@ -691,7 +683,11 @@ footer img {
 
 .footer-item a {
   text-decoration: none;
-  margin-left: 0 50px 0 -15px;
+  margin: 0 35px 0 -5px;
+}
+
+.footer-item a:hover {
+  color: #444;
 }
 
 .footer-img-wrapper {
@@ -709,4 +705,9 @@ footer img {
 
 .footer-text-wrapper * {
   margin: 10px 0;
+  font-size: 17px;
+}
+
+.footer-text-wrapper p:nth-of-type(1) {
+  font-style: italic;
 }
