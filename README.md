@@ -16,10 +16,10 @@
 ## Features on the project:
 
 - A 1440px layout style;
-- Grayscale to indicate which parts os the page are more important to be seen;
+- Grayscale to indicate which parts of the page are more important to be seen;
 - Article tags for all articles listed on the page;
 - Align elements using flex or grid;
-- Font styles (Sans Serif and Serif) sizes and weights that affects the visual feel of the page;
+- Font styles (Sans Serif and Serif) sizes and weights that affect the visual feel of the page;
 - Gradient styles and images rotations for visual effects.
 
 
