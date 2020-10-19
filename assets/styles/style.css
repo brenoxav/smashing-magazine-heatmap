@@ -91,10 +91,9 @@ section {
   background-size: 30px;
   background-position: 10px;
   padding: 0 50px;
-}
-
-.nav-btn:hover {
-  background-color: #222;
+  width: 350px;
+  height: 70px;
+  border-radius: 11px;
 }
 
 .nav-btn {
@@ -107,18 +106,16 @@ section {
   justify-content: space-evenly;
 }
 
+.nav-btn:hover {
+  background-color: #222;
+}
+
 .cat-img-logo {
   width: 30px;
 }
 
 .nav-logo {
   width: 196px;
-}
-
-.nav-input {
-  width: 350px;
-  height: 70px;
-  border-radius: 11px;
 }
 
 .nav-input[placeholder] {
@@ -162,14 +159,14 @@ section {
   filter: opacity(50%);
 }
 
-.switch-wrapper a:nth-of-type(1) {
+.switch-icon {
   background-color: #fff;
   border-radius: 11px;
   margin-right: 15px;
   transform: rotate(-10deg);
 }
 
-.switch-wrapper a:nth-of-type(2) {
+.switch-btn {
   color: #fff;
   padding: 10px 20px;
   border: 2px solid #fff;
@@ -179,7 +176,7 @@ section {
   font-size: 19px;
 }
 
-/* Main Articles Section*/
+/* Main Articles Section */
 .main-articles-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -256,7 +253,7 @@ section {
 .membership-banner {
   background-image: linear-gradient(#333, #555);
   color: #fff;
-  padding: 50px 0 50px 0px;
+  padding: 50px 0 50px 0;
   font-size: 18px;
   line-height: 36px;
 }
@@ -275,7 +272,7 @@ section {
 
 .membership-banner ul {
   list-style: initial;
-  padding: 20px 0px 20px 50px;
+  padding: 20px 0 20px 50px;
 }
 
 .membership-banner a {
@@ -296,7 +293,7 @@ section {
 }
 
 .latest-articles {
-  padding: 30px 40px 0px;
+  padding: 30px 40px 0;
   position: relative;
 }
 
@@ -317,9 +314,10 @@ section {
 }
 
 .article-author {
-  font-size: 15px;
-  line-height: 19px;
-  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #666;
 }
 
 .article-description {
@@ -486,13 +484,6 @@ section {
   margin-left: 50px;
 }
 
-.article-author {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: bold;
-  color: #666;
-}
-
 .community-links {
   align-items: flex-start;
   padding: 30px;
@@ -576,7 +567,7 @@ section {
   color: #666;
 }
 
-.our-guides p:nth-of-type(2) {
+.our-guides-description {
   margin: 20px 0;
 }
 
@@ -662,12 +653,12 @@ footer * {
   color: #fff;
 }
 
-footer h4 {
+.footer-heading {
   margin: 40px 0;
   font-weight: bold;
 }
 
-footer img {
+.footer-images {
   height: 161px;
 }
 
@@ -677,7 +668,7 @@ footer img {
 }
 
 .footer-item {
-  padding: 10px 0px;
+  padding: 10px 0;
   list-style-type: disc;
 }
 

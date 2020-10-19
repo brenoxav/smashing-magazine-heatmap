@@ -11,7 +11,7 @@
 
 <body>
     <header class="main-header grid">
-        <img class="nav-logo" src="assets/images/smashing-logo-full.svg">
+        <img class="nav-logo" src="assets/images/smashing-logo-full.svg" alt="logo image">
         <nav class="navbar flex">
             <ul class="flex">
                 <li class="nav-item nav-font"><a href=#>Articles</a></li>
@@ -33,7 +33,7 @@
         <div class="main-heading-wrapper">
             <h1 class="main-heading"><span>Don’t Miss These Latest&nbsp;&nbsp;<br>&nbsp;&nbsp;Articles</span></h1>
             <div class="switch-wrapper flex">
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                <a href="#" class="switch-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         viewBox="0 0 24 24" enable-background="new 0 0 24 24">
                         <g>
                             <path
@@ -41,7 +41,7 @@
                             </path>
                         </g>
                     </svg></a>
-                <a class="color-switch-btn" href="#">Seriously, red?</a>
+                <a class="switch-btn" href="#">Seriously, red?</a>
             </div>
         </div>
         <section class="main-articles-section">
@@ -107,7 +107,7 @@
                     <li>New discounts on tools, services and tutorials,</li>
                     <li>...plus a seasoned selection of fancy cats.</li>
                 </ul>
-                <button class="btn">About Smashing Membership →</button>
+                <button class="btn" type="button">About Smashing Membership →</button>
             </div>
             <img src="assets/images/cat-firechat.svg" alt="">
         </article>
@@ -142,11 +142,11 @@
             </article>
             <article class="latest-articles shopify-ad">
                 <p>Our fiends and supporters</p>
-                <a class="shopify-ad-wrapper flex" href="#">
+                <div class="shopify-ad-wrapper flex">
                     <img src="assets/images/shopify-logo.svg" alt="shopify logo">
                     <p>Earn recurring revenue designing and developing eCommerce stores</p>
-                    <button>SIGN UP TODAY</button>
-                </a>
+                    <button type="button">SIGN UP TODAY</button>
+                </div>
             </article>
             <article class="latest-articles smashing-ads flex">
                 <img src="assets/images/singing-barista.svg" alt="cat barista">
@@ -154,7 +154,7 @@
                 <p class="white-p">A friendly community that keeps this website alive. With books, webinars, discounts
                     and networking —
                     for just 1 coffee a month. </p>
-                <button class="btn">Explore features →</button>
+                <button class="btn" type="button">Explore features →</button>
                 <small class="white-p">Already have an account? <a href="#">Sign in!</a></small>
             </article>
             <article class="latest-articles">
@@ -200,7 +200,7 @@
                 <h1>New on Smashing TV</h1>
                 <p class="white-p">A channel where seasoned developers show how they design, build, work and play.
                     Coming up next: <a href=#>All About Icons</a> with Marc Edwards (Oct 20).</p>
-                <button class="btn">See all upcoming episodes →</button>
+                <button class="btn" type="button">See all upcoming episodes →</button>
                 <p class="white-p">Already have an account? <a href="#">Sign in!</a></p>
             </article>
         </section>
@@ -210,7 +210,7 @@
             <h1>Meet “Click!”: Encourage Clicks Without Shady Tricks</h1>
             <p class="white-p">Our new book on how to boost business KPIs, build trust and address doubts effectively —
                 without alienating people along the way. By Paul Boag.</p>
-            <button class="btn">Jump to table of contents →</button>
+            <button class="btn" type="button">Jump to table of contents →</button>
             <img src="assets/images/click__homepage-illustration.svg" alt="">
         </article>
         <section class="community-links-section">
@@ -259,8 +259,8 @@
                     <p><span>October 12, 2020 — </span>Do you need a little refresher on shell brackets? Julia Evans
                         shares
                         a comic-style <a href="#">brackets cheat sheet</a> to help you identify them all.</p>
+                </div>
             </article>
-            </div>
             <article class="community-links flex">
                 <img src="assets/images/trys-mudford-opt.png" alt="picture of the author">
                 <div class="community-text">
@@ -304,7 +304,7 @@
                     how to set up an <strong>effective design system</strong> to create great
                     digital products. With common traps, gotchas and lessons learned.
                 </p>
-                <button class="btn">Jump to table of contents →</button>
+                <button class="btn" type="button">Jump to table of contents →</button>
             </div>
             <img src="assets/images/design-systems-hardcover-book.png" alt="book">
         </article>
@@ -312,26 +312,26 @@
             <article class="our-guides">
                 <p>A SMASHING GUIDE TO</p>
                 <h2>JavaScript & Frameworks</h2>
-                <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer
+                <p class="our-guides-description">React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer
                     working with one of these frameworks, or just starting to learn, our authors have created some
                     tutorials for you.</p>
-                <button class="btn">Explore JavaScript & Frameworks</button>
+                <button class="btn" type="button">Explore JavaScript & Frameworks</button>
             </article>
             <article class="our-guides">
                 <p>A SMASHING GUIDE TO</p>
                 <h2>CSS Layout</h2>
-                <p>CSS Layout has been transformed over the past years. We have you covered with all you need to master
+                <p class="our-guides-description">CSS Layout has been transformed over the past years. We have you covered with all you need to master
                     this new world. If you want to understand the technical details, or learn how to use new CSS
                     creatively, these guides can help.</p>
-                <button class="btn">Explore CSS Layout</button>
+                <button class="btn" type="button">Explore CSS Layout</button>
             </article>
             <article class="our-guides">
                 <p>A SMASHING GUIDE TO</p>
                 <h2>Web Performance</h2>
-                <p>Ensuring your site loads quickly is important. The subject touches almost every part of web design
+                <p class="our-guides-description">Ensuring your site loads quickly is important. The subject touches almost every part of web design
                     and development, from your choice of images to the performance of your web server. In this guide we
                     bring together information that can help you build a fast site, and keep it fast.</p>
-                <button class="btn">Explore Performance</button>
+                <button class="btn" type="button">Explore Performance</button>
             </article>
             <article class="our-guides newsletter-ad">
                 <img src="assets/images/cat-newsletter.png" alt="">
@@ -341,7 +341,7 @@
                         class="emoji">🔮</span></p>
                 <div class="flex">
                     <input type="email" name="email" id="email" placeholder="Your email">
-                    <button class="btn">Meow!</button>
+                    <button class="btn" type="button">Meow!</button>
                 </div>
                 <p>Front-end, UX and design. 1× a week.
                     You can always unsubscribe with just 1 click.</p>
@@ -350,7 +350,7 @@
         <div class="more-links-buttons"><a href="#">See all guides →</a></div>
     </main>
     <footer class="flex">
-        <h4>BROWSE ALL SMASHING MAGAZINE TOPICS</h4>
+        <h4 class="footer-heading">BROWSE ALL SMASHING MAGAZINE TOPICS</h4>
         <ul class="footer-nav flex">
             <li class="footer-item"><a href="/category/accessibility">Accessibility</a></li>
             <li class="footer-item"><a href="/category/android">Android</a></li>
@@ -394,7 +394,7 @@
         </ul>
         <br>
         <div class="footer-img-wrapper flex">
-            <img src="assets/images/bird-in-cage.svg" alt="bird inside a cage">
+            <img class="footer-images" src="assets/images/bird-in-cage.svg" alt="bird inside a cage">
             <div class="footer-text-wrapper">
                 <p>With a commitment to quality content for the design community.</p>
                 <p>Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.</p>
@@ -404,7 +404,7 @@
                         href="#">Privacy policy</a></p><br>
                 <p><a href="#">Membership login</a> <a href="#">Delivery times</a> <a href="#">Advertise</a></p><br>
             </div>
-            <img src="assets/images/cat-footer.svg" alt="cat jumping">
+            <img class="footer-images" src="assets/images/cat-footer.svg" alt="cat jumping">
         </div>
     </footer>
 </body>
