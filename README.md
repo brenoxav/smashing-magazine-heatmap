@@ -4,7 +4,10 @@
 
 > This project consists of building a heatmap of the [Smashing magazine](https://www.smashingmagazine.com/) website.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/images/screenshot-1.png)
+![screenshot](./assets/images/screenshot-2.png)
+![screenshot](./assets/images/screenshot-3.png)
+
 
 Additional description about the project and its features.
 
