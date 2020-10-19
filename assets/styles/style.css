@@ -18,22 +18,20 @@ body {
   margin: 0 auto;
 }
 
-header,
-main,
-footer,
-section {
-  width: 100%;
+.d-flex {
+  display: flex;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 196px auto 350px;
-  grid-template-rows: auto;
+.align-center {
   align-items: center;
 }
 
-.flex {
-  display: flex;
+.text-center {
+  text-align: center;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .btn {
@@ -45,44 +43,46 @@ section {
   cursor: pointer;
 }
 
+.color-white {
+  color: #fff;
+}
+
 .white-p {
   color: #fff;
   font-size: 21px;
   line-height: 24px;
   font-weight: normal;
-  text-align: center;
+}
+
+.no-decoration {
+  text-decoration: none;
 }
 
 /* Navbar */
 .main-header {
+  display: grid;
+  grid-template-columns: 196px auto 350px;
+  grid-template-rows: auto;
+  align-items: center;
   background-color: #666;
   padding: 16px 40px;
 }
 
 .navbar {
-  width: 100%;
   height: 80px;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar ul {
-  width: 100%;
   height: 100%;
   justify-content: space-evenly;
-  align-items: center;
 }
 
 .nav-font {
   font-size: 22px;
   font-weight: 700;
   line-height: 36px;
-  color: #fff;
-}
-
-.nav-item a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .nav-input {
@@ -97,7 +97,6 @@ section {
 }
 
 .nav-btn {
-  align-items: center;
   background-color: #444;
   border-radius: 11px;
   align-content: center;
@@ -131,7 +130,6 @@ section {
   width: 1440px;
   margin: 40px auto;
   background-color: transparent;
-  text-align: center;
 }
 
 .main-heading {
@@ -143,14 +141,12 @@ section {
   font-size: 39px;
   line-height: 60px;
   font-weight: 700;
-  text-align: center;
 }
 
 .switch-wrapper {
   position: absolute;
   top: 20px;
   right: 50px;
-  align-items: center;
 }
 
 .switch-wrapper svg {
@@ -167,7 +163,6 @@ section {
 }
 
 .switch-btn {
-  color: #fff;
   padding: 10px 20px;
   border: 2px solid #fff;
   border-radius: 11px;
@@ -215,7 +210,6 @@ section {
   font-size: 36px;
   font-weight: 700;
   line-height: 59px;
-  color: #fff;
 }
 
 .comments {
@@ -228,7 +222,6 @@ section {
   font-size: 18px;
   line-height: 32px;
   margin: 20px 30px 0 0;
-  color: #fff;
 }
 
 .tags sup {
@@ -240,7 +233,6 @@ section {
   font-size: 21px;
   font-weight: 700;
   line-height: 35px;
-  color: #fff;
   padding: 20px 0 30px 20px;
 }
 
@@ -252,7 +244,6 @@ section {
 /* Menbership Banner */
 .membership-banner {
   background-image: linear-gradient(#333, #555);
-  color: #fff;
   padding: 50px 0 50px 0;
   font-size: 18px;
   line-height: 36px;
@@ -336,14 +327,9 @@ section {
   font-size: 25px;
 }
 
-.shopify-ad p {
-  text-align: center;
-}
-
 .shopify-ad-wrapper {
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
   background-color: #eee;
   height: 210px;
   border: 1px solid #888;
@@ -360,34 +346,24 @@ section {
   border: none;
   border-radius: 5px;
   background-color: #666;
-  color: #fff;
   padding: 10px 14px;
 }
 
 .smashing-ads {
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
   background-color: #444;
   border-radius: 10px;
 }
 
 .smashing-ads h1 {
-  text-align: center;
   text-decoration: underline;
   font-weight: bold;
   font-size: 36px;
-  color: #fff;
 }
 
 .smashing-ads a {
   color: #fff;
-}
-
-.smashing-ad-account {
-  text-align: center;
-  color: #fff;
-  line-height: 35px;
 }
 
 .smashing-tv-ad {
@@ -401,7 +377,6 @@ section {
 }
 
 .more-links-buttons {
-  text-align: center;
   margin: 30px 0 70px;
 }
 
@@ -454,7 +429,6 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 276px 386px 386px 386px;
-  align-items: center;
   padding: 70px;
 }
 
@@ -591,7 +565,6 @@ section {
 
 .newsletter-ad h2 {
   margin-bottom: 30px;
-  color: #fff;
 }
 
 .newsletter-ad p {
@@ -601,7 +574,6 @@ section {
 
 .newsletter-ad div {
   margin: 30px 0;
-  align-items: center;
 }
 
 .newsletter-ad input {
@@ -630,7 +602,6 @@ section {
   border-radius: 11px;
   margin: 0 auto;
   padding: 5px 20px;
-  text-align: center;
   font-size: 18px;
   line-height: 30px;
   width: 80%;
@@ -643,9 +614,7 @@ section {
 /* Footer */
 footer {
   flex-direction: column;
-  width: 100%;
   padding: 30px 0;
-  align-items: center;
   background-color: #aaa;
 }
 
@@ -664,7 +633,6 @@ footer * {
 
 .footer-nav {
   font-size: 24px;
-  text-align: center;
 }
 
 .footer-item {
@@ -686,12 +654,10 @@ footer * {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: flex-end;
-  width: 100%;
 }
 
 .footer-text-wrapper {
   margin-top: 30px;
-  text-align: center;
 }
 
 .footer-text-wrapper * {
